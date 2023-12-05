@@ -1,0 +1,79 @@
+.img_scroll{
+    overflow-y:scroll;
+overflow-x:scroll; 
+   height:350px;
+   width: 60%;
+}
+.img_scroll2{
+   overflow-y:scroll;
+   overflow-x:scroll; 
+   height:350px;
+   width: 60%;
+}
+
+
+   /* The modal1 (background) */
+   .modal1,.modal2, .modal3, .modal4, .modal5, .modal6, .modal7, .modal8, .modal9, .modal10, .modal11, .modal12,
+   .modal13, .modal14, .modal15, .modal16, .modal17, .modal18, .modal19, .modal20, .modal21, .modal22 {
+     display: none; /* Hidden by default */
+     position: fixed; /* Stay in place */
+     z-index: 1; /* Sit on top */
+     padding-top: 100px; /* Location of the box */
+     left: 0;
+     top: 0;
+     width: 100%; /* Full width */
+     height: 100%; /* Full height */
+     overflow: auto; /* Enable scroll if needed */
+     background-color: rgb(0,0,0); /* Fallback color */
+     background-color: rgba(0,0,0,0.1); /* Black w/ opacity */
+   }
+   
+   /* modal1 Content */
+   .modal1-content, .modal2-content, .modal3-content, .modal4-content,.modal5-content,.modal6-content ,
+   .modal7-content, .modal8-content, .modal9-content, .modal10-content,.modal11-content,.modal12-content, .modal13-content, .modal14-content,.modal15-content,.modal16-content ,
+   .modal17-content, .modal18-content, .modal19-content, .modal20-content,.modal21-content,.modal22-content{
+     background-color: #fefefe;
+     margin: auto;
+     padding: 10px;
+     border: 1px solid #888;
+     width: 80%;
+   }
+   
+   /* The close1 Button */
+   .close1, .close2, .close3, .close4, .close5, .close6,
+   .close7, .close8, .close9, .close10, .close11, .close12, .close13, .close14, .close15, .close16,
+   .close17, .close18, .close19, .close20, .close21, .close22 {
+     color: #aaaaaa;
+     float: right;
+     font-size: 18px;
+     font-weight: bold;
+   }
+   
+   .close1:hover,
+   .close1:focus, .close2:hover,
+   .close2:focus, .close3:hover,
+   .close3:focus, .close4:hover,
+   .close4:focus, .close5:hover,
+   .close5:focus, .close6:hover,
+   .close6:focus,.close7:hover,
+   .close7:focus, .close8:hover,
+   .close8:focus, .close9:hover,
+   .close9:focus, .close10:hover,
+   .close10:focus, .close11:hover,
+   .close11:focus, .close12:hover,
+   .close12:focus, .close13:hover,
+   .close13:focus, .close14:hover,
+   .close14:focus, .close15:hover,
+   .close15:focus, .close16:hover,
+   .close16:focus,.close17:hover,
+   .close17:focus, .close18:hover,
+   .close18:focus, .close19:hover,
+   .close19:focus, .close20:hover,
+   .close20:focus, .close21:hover,
+   .close21:focus, .close22:hover,
+   .close22:focus    {
+     color: #000;
+     text-decoration: none;
+     cursor: pointer;
+   }
+   p>img{width: 100%;}

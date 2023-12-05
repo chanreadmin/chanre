@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Disable Same Date Entry</title>
+</head>
+<body>
+    <h2>Enter Date</h2>
+    <input type="date" id="inputDate" name="inputDate" required>
+    <button onclick="addDate()">Submit</button>
+    <div id="dateList">
+        <p>Entered Dates:</p>
+        <ul id="enteredDates"></ul>
+    </div>
+
+    <script>
+        const enteredDates = new Set(); // To store entered dates
+
+        function addDate() {
+            const inputDate = document.getElementById("inputDate").value;
+            if (inputDate && !enteredDates.has(inputDate)) {
+                enteredDates.add(inputDate);
+                updateEnteredDatesList();
+                disableEnteredDate(inputDate);
+            }
+        }
+
+        function updateEnteredDatesList() {
+            const enteredDatesList = document.getElementById("enteredDates");
+            enteredDatesList.innerHTML = "";
+            enteredDates.forEach(date => {
+                const li = document.createElement("li");
+                li.textContent = date;
+                enteredDatesList.appendChild(li);
+            });
+        }
+
+        function disableEnteredDate(inputDate) {
+            const inputElement = document.getElementById("inputDate");
+            inputElement.value = ""; // Clear the input
+            inputElement.min = inputDate; // Disable dates prior to the entered date
+        }
+    </script>
+</body>
+</html>

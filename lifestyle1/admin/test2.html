@@ -1,0 +1,31 @@
+<div class="img_scroll" title="Click on image to zoom" align="center">
+	<a href="#" id="myBtn1">
+			<img src="http://www.chanrejournals.com/jr/index.php/rheumatology/article/viewFile/12/html/11" alt=""></a>
+</div>
+            
+            <!-- The modal1 -->
+            <div id="mymodal1" class="modal1">
+                <!-- modal1 content -->
+                <div class="modal1-content">
+                  <span class="close1">&times;</span>
+                  <p><img src="http://www.chanrejournals.com/jr/index.php/rheumatology/article/viewFile/12/html/11" alt=""></p>
+                </div>
+              
+              </div>
+              
+              <script>
+              var modal1 = document.getElementById("mymodal1");
+              var btn = document.getElementById("myBtn1");
+              var span = document.getElementsByClassName("close1")[0];
+              btn.onclick = function() {
+                modal1.style.display = "block";
+              }
+              span.onclick = function() {
+                modal1.style.display = "none";
+              }
+              window.onclick = function(event) {
+                if (event.target == modal1) {
+                  modal1.style.display = "none";
+                }
+              }
+              </script>

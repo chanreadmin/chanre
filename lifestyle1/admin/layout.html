@@ -1,0 +1,28 @@
+'$ra','$ra_duration','$ra_treatment','$oa','$oa_duration','$oa_treatment','$osteoprosis','$osteoprosis_duration','$osteoprosis_treatment','$psa','$psa_duration','$psa_treatment','$spa','$spa_duration','$spa_treatment','$sle','$sle_duration','$sle_treatment','$myositis','$myositis_duration','$myositis_treatment','$scleroderma','$scleroderma_duration','$scleroderma_treatment','$sjogren','$sjogren_duration','$sjogren_treatment','$uctd','$uctd_duration','$uctd_treatment','$mctd','$mctd_duration','$mctd_treatment','$gout','$gout_duration','$gout_treatment','$vasculitis','$vasculitis_duration','$vasculitis_treatment','$rcother','$rcother_duration','$rcother_treatment','$admin_name','$patient_name','$patient_id'
+
+
+ 
+$queryinv = mysqli_query($con,"Insert into investigation 
+    (ra, ra_duration, ra_treatment, oa, oa_duration, oa_treatment, 
+    osteoprosis, osteoprosis_duration, osteoprosis_treatment, psa,
+    psa_duration, psa_treatment, spa, spa_duration, spa_treatment, 
+    sle, sle_duration, sle_treatment, myositis, myositis_duration, 
+    myositis_treatment, scleroderma, scleroderma_duration, scleroderma_treatment, 
+    sjogren, sjogren_duration, sjogren_treatment, uctd, uctd_duration, uctd_treatment, 
+    mctd, mctd_duration, mctd_treatment, gout, gout_duration, gout_treatment, 
+    vasculitis, vasculitis_duration, vasculitis_treatment, rcother, 
+    rcother_duration, rcother_treatment, admin_name, patient_name, 
+    patient_id)
+    
+    values('$ra','$ra_duration','$ra_treatment','$oa','$oa_duration',
+    '$oa_treatment','$osteoprosis','$osteoprosis_duration',
+    '$osteoprosis_treatment','$psa','$psa_duration','$psa_treatment',
+    '$spa','$spa_duration','$spa_treatment','$sle','$sle_duration',
+    '$sle_treatment','$myositis','$myositis_duration','$myositis_treatment',
+    '$scleroderma','$scleroderma_duration','$scleroderma_treatment',
+    '$sjogren','$sjogren_duration','$sjogren_treatment','$uctd',
+    '$uctd_duration','$uctd_treatment','$mctd','$mctd_duration',
+    '$mctd_treatment','$gout','$gout_duration','$gout_treatment',
+    '$vasculitis','$vasculitis_duration','$vasculitis_treatment',
+    '$rcother','$rcother_duration','$rcother_treatment','$admin_name',
+    '$username','$sid')");
