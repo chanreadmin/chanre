@@ -18,7 +18,7 @@ else{
 
 
 <meta charset="UTF-8">
-<title>Asiapp - Shop & Medical Mobile Template </title>
+<title>Chanre Care</title>
 <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -39,7 +39,7 @@ else{
 <link rel="stylesheet" type="text/css" href="lib/slick/slick/slick.css">
 <link rel="stylesheet" type="text/css" href="lib/slick/slick/slick-theme.css">
 <!-- Magnific Popup core CSS file -->
-<link rel="stylesheet" href="lib/Magnific-Popup-master/dist/magnific-popup.css">
+<!-- <link rel="stylesheet" href="lib/Magnific-Popup-master/dist/magnific-popup.css"> -->
 </head>
 
 <body id="homepage">
@@ -101,7 +101,7 @@ else{
 
     <!-- END SUBSCRIBE -->
     <!-- FOOTER  -->
-    <footer id="footer">
+    <!-- <footer id="footer">
         <div class="container">
             <div class="row row-footer-icon">
                 <div class="col s12">
@@ -141,53 +141,42 @@ else{
                 Copyright @ 2023, All rights reserved.
             </div>
         </div>
-    </footer>
+    </footer> -->
     <!-- END FOOTER -->
     <!-- Script -->
-    <script data-cfasync="false"
-        src="https://uidevr.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    
     <script src="js/jquery.min.js"></script>
     <script src="js/materialize.min.js"></script>
     <!-- Owl carousel -->
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <!-- Magnific Popup core JS file -->
-    <script src="lib/Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
+    <!-- <script src="lib/Magnific-Popup-master/dist/jquery.magnific-popup.js"></script> -->
     <!-- Slick JS -->
     <script src="lib/slick/slick/slick.min.js"></script>
     <!-- Custom script -->
-    <script src="js/custom.js"></script>
+    <!-- <script src="js/custom.js"></script> -->
     <script>
     document.addEventListener('DOMContentLoaded', function() {
         const currentUrl = window.location.href;
-
-        // Create a URL object from the URL string
         const url = new URL(currentUrl);
-
-        // Get the value of the 'id' parameter
         const idParam = url.searchParams.get('id');
-
-
-
-
         const postId = idParam;
         const apiUrl = `https://chanrericr.com/blog/api/get_single_post.php?id=${postId}`;
-
         fetch(apiUrl)
             .then(response => response.json())
             .then(data => {
                 const postsContainer = document.getElementById('posts-container');
-
                 if (data.length != 0) {
                     const post = data;
-                    console.log(data)
+                    // console.log(post)
                     const postHTML = `<h5> ${post.PostTitle}</h5>
                     <br>
                     <img src='https://chanrericr.com/blog/admin/postimages/${post.PostImage}' alt='Hello' />
                     <br>
-                    <br><div>${post.PostDetails}</div>`;
+                    <br>
+                    <div>${post.PostDetails}</div>`;
                     postsContainer.innerHTML = postHTML;
                 } else {
-                    // console.log(data)
                     postsContainer.innerHTML = '<p>No post found.</p>';
                 }
             })

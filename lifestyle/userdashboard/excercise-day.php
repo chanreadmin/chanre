@@ -121,7 +121,7 @@ else{
 
     .modal__content {
         position: relative;
-        max-height: 100%;
+        /* height: 100%; */
         background: #fff;
         padding: 5px;
     }

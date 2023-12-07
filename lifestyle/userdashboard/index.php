@@ -38,7 +38,7 @@ else{
     <link rel="stylesheet" type="text/css" href="lib/slick/slick/slick.css">
     <link rel="stylesheet" type="text/css" href="lib/slick/slick/slick-theme.css">
     <!-- Magnific Popup core CSS file -->
-    <link rel="stylesheet" href="lib/Magnific-Popup-master/dist/magnific-popup.css">
+    <!-- <link rel="stylesheet" href="lib/Magnific-Popup-master/dist/magnific-popup.css"> -->
 </head>
 
 <body id="homepage">
@@ -172,20 +172,17 @@ else{
             <div class="row row-title">
                 <div class="col s12">
                     <div class="section-title">
-                        <span class="theme-secondary-color">HEALTH</span> INFORMATION
+                        <span class="theme-secondary-color">NEWS</span> & BLOG
                     </div>
                 </div>
             </div>
 
             <div class="row row-list-news">
-                <div class="col s12 " id="posts-container">
-
-
-                    <!-- End news item-->
-                    <div class="more-news-list">
-                        <a class="more-btn" href="#">See More News &gt;</a>
-                    </div>
+                <div class="col s12" id="posts-container">
                 </div>
+                 <div class="more-news-list">
+                        <a class="more-btn" href="news-list.php">See More News &gt;</a>
+                    </div>
             </div>
         </div>
     </div>
@@ -208,14 +205,14 @@ else{
 
     <!-- END FOOTER -->
     <!-- Script -->
-    <script data-cfasync="false"
-        src="https://uidevr.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <!-- <script data-cfasync="false"
+        src="https://uidevr.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script> -->
     <script src="js/jquery.min.js"></script>
     <script src="js/materialize.min.js"></script>
     <!-- Owl carousel -->
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <!-- Magnific Popup core JS file -->
-    <script src="lib/Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
+    <!-- <script src="lib/Magnific-Popup-master/dist/jquery.magnific-popup.js"></script> -->
     <!-- Slick JS -->
     <script src="lib/slick/slick/slick.min.js"></script>
     <!-- Custom script -->
