@@ -38,7 +38,7 @@ else{
     <link rel="stylesheet" type="text/css" href="lib/slick/slick/slick.css">
     <link rel="stylesheet" type="text/css" href="lib/slick/slick/slick-theme.css">
     <!-- Magnific Popup core CSS file -->
-    <!-- <link rel="stylesheet" href="lib/Magnific-Popup-master/dist/magnific-popup.css"> -->
+    <link rel="stylesheet" href="lib/Magnific-Popup-master/dist/magnific-popup.css">
 </head>
 
 <body id="homepage">
@@ -108,7 +108,7 @@ else{
                         </div>
                     </a>
                 </div>
-                <div class="col s4 m4 l2"><a class="icon-content">
+                <!-- <div class="col s4 m4 l2"><a class="icon-content">
                         <div class="content fadetransition">
                             <div class="in-content">
                                 <div class="in-in-content">
@@ -141,7 +141,7 @@ else{
                             </div>
                         </div>
                     </a>
-                </div>
+                </div> -->
                 <div class="col s4 m4 l2"><a class="icon-content">
                         <div class="content fadetransition">
                             <div class="in-content">
@@ -212,7 +212,7 @@ else{
     <!-- Owl carousel -->
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <!-- Magnific Popup core JS file -->
-    <!-- <script src="lib/Magnific-Popup-master/dist/jquery.magnific-popup.js"></script> -->
+    <script src="lib/Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
     <!-- Slick JS -->
     <script src="lib/slick/slick/slick.min.js"></script>
     <!-- Custom script -->
