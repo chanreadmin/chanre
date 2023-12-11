@@ -97,7 +97,7 @@ else{
                         </div>
                     </a>
                 </div>
-                <div class="col s4 m4 l2"><a class="icon-content">
+                <div class="col s4 m4 l2"><a class="icon-content" href="diet.php">
                         <div class="content fadetransition">
                             <div class="in-content">
                                 <div class="in-in-content">
@@ -108,7 +108,8 @@ else{
                         </div>
                     </a>
                 </div>
-                <!-- <div class="col s4 m4 l2"><a class="icon-content">
+                <div class="col s4 m4 l2">
+                    <a class="icon-content">
                         <div class="content fadetransition">
                             <div class="in-content">
                                 <div class="in-in-content">
@@ -120,7 +121,8 @@ else{
                         </div>
                     </a>
                 </div>
-                <div class="col s4 m4 l2"><a class="icon-content">
+                <div class="col s4 m4 l2">
+                    <!-- <a class="icon-content">
                         <div class="content fadetransition">
                             <div class="in-content">
                                 <div class="in-in-content">
@@ -129,9 +131,10 @@ else{
                                 </div>
                             </div>
                         </div>
-                    </a>
+                    </a> -->
                 </div>
-                <div class="col s4 m4 l2"><a class="icon-content">
+                <div class="col s4 m4 l2">
+                    <!-- <a class="icon-content">
                         <div class="content fadetransition">
                             <div class="in-content">
                                 <div class="in-in-content">
@@ -140,9 +143,10 @@ else{
                                 </div>
                             </div>
                         </div>
-                    </a>
-                </div> -->
-                <div class="col s4 m4 l2"><a class="icon-content">
+                    </a> -->
+                </div>
+                <div class="col s4 m4 l2">
+                    <!-- <a class="icon-content">
                         <div class="content fadetransition">
                             <div class="in-content">
                                 <div class="in-in-content">
@@ -151,7 +155,7 @@ else{
                                 </div>
                             </div>
                         </div>
-                    </a>
+                    </a> -->
                 </div>
             </div>
         </div>
