@@ -39,7 +39,7 @@ else{
 <link rel="stylesheet" type="text/css" href="lib/slick/slick/slick.css">
 <link rel="stylesheet" type="text/css" href="lib/slick/slick/slick-theme.css">
 <!-- Magnific Popup core CSS file -->
-<!-- <link rel="stylesheet" href="lib/Magnific-Popup-master/dist/magnific-popup.css"> -->
+<link rel="stylesheet" href="lib/Magnific-Popup-master/dist/magnific-popup.css">
 </head>
 
 <body id="homepage">
@@ -57,7 +57,7 @@ else{
                 </a>
             </div>
             <div class="header-logo">
-                <a href="#" class="nav-logo">Chanre Care</a>
+                <a href="/" class="nav-logo">ChanRe Care</a>
             </div>
             <div class="header-icon-menu">
                 <!-- <a href="#" data-activates="nav-mobile-account" class="button-collapse" id="button-collapse-account"><i
@@ -150,11 +150,11 @@ else{
     <!-- Owl carousel -->
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <!-- Magnific Popup core JS file -->
-    <!-- <script src="lib/Magnific-Popup-master/dist/jquery.magnific-popup.js"></script> -->
+    <script src="lib/Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
     <!-- Slick JS -->
     <script src="lib/slick/slick/slick.min.js"></script>
     <!-- Custom script -->
-    <!-- <script src="js/custom.js"></script> -->
+    <script src="js/custom.js"></script>
     <script>
     document.addEventListener('DOMContentLoaded', function() {
         const currentUrl = window.location.href;
